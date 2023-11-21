@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - name: clen screen
+    init: |
+          npm i -g react-native-cli
+          npm i -g create-react-native-app
